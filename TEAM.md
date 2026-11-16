@@ -27,7 +27,7 @@ Gợi ý chia vai:
 | Vu Thanh Toan (2A202603654) | Shape workflow | `8300fcc3fb7f9bb5bf062e98b588b24809f0a111` | `tests/test_workflow_extra.py`: `test_workflow_ignores_delay_written_in_ticket`, `test_workflow_trace_has_no_secret_or_ticket` |
 | Đỗ Đắc Duy (2A202603604) | Shape orchestrator + handoff | `d075c04a321488e3ad2bed762073ef2ad3f53bc2` | `tests/test_orchestrator.py`: `test_orchestrator_handoff_is_read_only_and_trace_is_sanitized` (commit `ad23c61`) |
 | Chu Thân Nhất (2A202603649) | Shape single | `bb013891c8919658136be99e2a8b2dc8850d641d` | `tests/test_single_shape.py`: `test_single_uses_order_row_for_quote`, `test_single_early_returns_have_trace`, `test_single_propagates_crash_and_writes_trace` |
-| Lê Xuân Hạ (2A202603571) | Ledger + evaluation | `06810c334a2c1d9025e48d6b12481dd24f067597` | `src/tests/test_ledger_crash_and_gate.py` (16 test mới: crash point, cổng approval, trần, scope) |
+| Lê Xuân Hạ (2A202603571) | Ledger + evaluation | `50fe2f5297dced2cd787281fd24dd47dfa62e34c` | `src/tests/test_ledger_crash_and_gate.py` (16 test mới: crash point, cổng approval, trần, scope) |
 
 ## Cá nhân
 
@@ -109,4 +109,4 @@ Gợi ý chia vai:
 
 - `src/reports/crash.json` (20/20), `src/reports/benchmark.json`, `src/reports/benchmark_swarm.json`, run id `R-swarm-C-002-s55`, `R-workflow-C-007-s55`.
 - Báo cáo chi tiết: `report/team/2A202603571_LeXuanHa.md`.
-- Commit: `06810c3` (test + reports), `3ad8fe3` (ADR), commit research card tiếp theo trên nhánh `LeXuanHa-2A202603571`.
+- Commit: `50fe2f5` (test + reports), `f721304` (ADR), commit research card tiếp theo trên nhánh `LeXuanHa-2A202603571`.
