@@ -12,6 +12,7 @@
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Lê Xuân Hạ | 2A202603571 |       |        | Ledger + evaluation |
+|   2 | Đỗ Đắc Duy | 2A202603604 |ddduy7890@gmail.com       |[DuyDo1007](https://github.com/DuyDo1007)        | Shape orchestrator + handoff |
 
 Gợi ý chia vai:
 
