@@ -26,7 +26,7 @@ Gợi ý chia vai:
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
 | Chu Thân Nhất (2A202603649) | Shape single | `bb013891c8919658136be99e2a8b2dc8850d641d` | `tests/test_single_shape.py`: `test_single_uses_order_row_for_quote`, `test_single_early_returns_have_trace`, `test_single_propagates_crash_and_writes_trace` |
-| Lê Xuân Hạ (2A202603571) | Ledger + evaluation | *(điền hash sau khi commit)* | `src/tests/test_ledger_crash_and_gate.py` (16 test mới: crash point, cổng approval, trần, scope) |
+| Lê Xuân Hạ (2A202603571) | Ledger + evaluation | `06810c334a2c1d9025e48d6b12481dd24f067597` | `src/tests/test_ledger_crash_and_gate.py` (16 test mới: crash point, cổng approval, trần, scope) |
 
 ## Cá nhân
 
@@ -56,7 +56,7 @@ Sao chép mục dưới đây cho từng thành viên.
 
 - `src/reports/crash.json`, `src/reports/benchmark_swarm.json`, run id `R-swarm-C-002-s55`.
 - Báo cáo chi tiết: `report/team/2A202603571_LeXuanHa.md`.
-- Commit: *(điền hash sau khi commit)*
+- Commit: `06810c3` (test + reports), commit tiếp theo trên nhánh `LeXuanHa-2A202603571` (ADR)
 
 ## MSSV_HoTen
 
