@@ -8,7 +8,7 @@
 - Run id dẫn chứng:
 - Pass rate / pass^5 / seed min-max / variance:
 - Cost per success (mô phỏng, VND):
-- Crash safety:
+- Crash safety: 20/20 (src/reports/crash.json)
 - Secret leak / approval bypass:
 
 Ví dụ một dòng đã điền: `- Shape chọn: workflow`, `- Crash safety: 20/20 (src/reports/crash.json)`.
