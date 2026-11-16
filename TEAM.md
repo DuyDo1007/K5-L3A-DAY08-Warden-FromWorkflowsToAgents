@@ -31,15 +31,6 @@ Gợi ý chia vai:
 
 ## Cá nhân
 
-Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/` theo dạng:
-
-```text
-report/team/MSSV_HoTen.md
-```
-
-Ví dụ: `report/team/20241234_NguyenVanAn.md`.
-
-Mỗi thành viên một mục dưới đây (chi tiết trong báo cáo cá nhân).
 
 ## 2A202603654_VuThanhToan
 
@@ -80,7 +71,7 @@ Mỗi thành viên một mục dưới đây (chi tiết trong báo cáo cá nh�
 - Benchmark single: pass 1.000, pass^5 1.000, cost/success 38.50 (`src/reports/benchmark.json`).
 - Báo cáo chi tiết: `report/team/2A202603649_ChuThanNhat.md`.
 
-## 2A202603604_Đỗ Đắc Duy 
+## 2A202603604_DoDacDuy 
 
 ### Phần việc phụ trách
 
@@ -98,7 +89,7 @@ Mỗi thành viên một mục dưới đây (chi tiết trong báo cáo cá nh�
 - Commit `d075c04` (orchestrator), `ad23c61` (test), PR #1 nhánh `duy`.
 - Test: `test_orchestrator_handoff_is_read_only_and_trace_is_sanitized` (xanh).
 - Benchmark orchestrator: pass 1.000, pass^5 1.000, cost/success 55.71 (`src/reports/benchmark.json`).
-- Báo cáo chi tiết: `report/team/MSSV_HoTen.md` *(chưa có)*.
+- Báo cáo chi tiết: `report/team/2A202603604_DoDacDuy.md`.
 
 ## 2A202603571_LeXuanHa
 
@@ -111,10 +102,11 @@ Mỗi thành viên một mục dưới đây (chi tiết trong báo cáo cá nh�
 - Thêm `src/tests/test_ledger_crash_and_gate.py` (16 test, chạy trong cổng host).
 - Chạy crash suite `20/20`, benchmark mốc swarm, phân tích lỗi swarm T02 seed 55.
 - Rà `TODO CP3` ở ba shape; benchmark 4 shape × 5 seed (`src/reports/benchmark.json`).
-- Điền mục 4 `group_report.md` và `decision_adr.md` (shape workflow theo quyết định nhóm).
+- Điền `decision_adr.md` (shape workflow theo quyết định nhóm) và các mục 1–5, 7, 8 của `group_report.md`.
+- Research card R2 + ablation: `src/bonus/swarm_verified.py`, `src/tests/test_ablation_swarm_verified.py` (8 test), `src/reports/ablation_r2.json`.
 
 ### Bằng chứng
 
 - `src/reports/crash.json` (20/20), `src/reports/benchmark.json`, `src/reports/benchmark_swarm.json`, run id `R-swarm-C-002-s55`, `R-workflow-C-007-s55`.
 - Báo cáo chi tiết: `report/team/2A202603571_LeXuanHa.md`.
-- Commit: `06810c3` (test + reports), `3ad8fe3` (ADR), nhánh `LeXuanHa-2A202603571`.
+- Commit: `06810c3` (test + reports), `3ad8fe3` (ADR), commit research card tiếp theo trên nhánh `LeXuanHa-2A202603571`.
