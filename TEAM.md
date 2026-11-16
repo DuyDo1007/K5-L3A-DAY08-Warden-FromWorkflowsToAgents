@@ -25,7 +25,7 @@ Gợi ý chia vai:
 
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| | | | |
+| Chu Thân Nhất (2A202603649) | Shape single | `bb013891c8919658136be99e2a8b2dc8850d641d` | `tests/test_single_shape.py`: `test_single_uses_order_row_for_quote`, `test_single_early_returns_have_trace`, `test_single_propagates_crash_and_writes_trace` |
 
 ## Cá nhân
 
