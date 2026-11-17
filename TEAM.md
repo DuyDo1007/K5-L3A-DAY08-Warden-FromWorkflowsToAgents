@@ -14,7 +14,7 @@
 |   1 | Lê Xuân Hạ | 2A202603571 |hlee93698@gmail.com       |hlee93698-stack        | Ledger + evaluation |
 |   2 | Đỗ Đắc Duy | 2A202603604 |ddduy7890@gmail.com       |[DuyDo1007](https://github.com/DuyDo1007)        | Shape orchestrator + handoff |
 |   3 | Vũ Thanh Toàn | 2A202603654 | thanhtoana7hha@gmail.com | Kyo708 | Shape workflow + integration |
-|   4 | Chu Thân Nhất | 2A202603649 | | | Shape single |
+|   4 | Chu Thân Nhất | 2A202603649 |nhatthanchu@gmail.com |CTNone | Shape single |
 
 Gợi ý chia vai:
 
