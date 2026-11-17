@@ -53,7 +53,7 @@ Gợi ý chia vai:
 - Commit `8300fcc` (PR #2, nhánh `VuThanhToan-2A202603654`).
 - Test: `test_workflow_ignores_delay_written_in_ticket`, `test_workflow_trace_has_no_secret_or_ticket` (chạy bằng `python -m pytest -q -o addopts= tests/test_workflow_extra.py`, xanh).
 - Benchmark workflow: pass 1.000, pass^5 1.000, cost/success 27.86 (`src/reports/benchmark.json`). Đây là shape nhóm chọn trong `decision_adr.md`.
-- Báo cáo chi tiết: `report/team/2A202603654_VuThanhToan.md` (đã hoàn thành).
+- Báo cáo chi tiết: `report/team/2A202603654_VuThanhToan.md`.
 
 ## 2A202603649_ChuThanNhat
 
